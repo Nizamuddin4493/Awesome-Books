@@ -54,6 +54,8 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@fsilvabr1](https://twitter.com/fsilvabr1)
 - LinkedIn: [https://linkedin.com/in/fernando-silvabr66](https://linkedin.com/in/fernando-silvabr66)
 
+<!-- Include Nizam´s info -->
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
