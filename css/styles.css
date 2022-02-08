@@ -1,0 +1,27 @@
+* {
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  margin-left: 50px;
+}
+
+.title {
+  margin: 10px 0;
+}
+
+.add {
+  margin-top: 10px;
+  width: 60px;
+  height: 25px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.contact-title {
+  font-size: 37px;
+  margin: 20px;
+}

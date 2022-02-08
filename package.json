@@ -1,0 +1,30 @@
+{
+  "name": "awesome-books",
+  "description": "Week 1 - Module 2 - Awesome Books Project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nizamuddin4493/Awesome-Books.git"
+  },
+  "author": "Nizamuddin and Fernando",
+  "license": "MIT ",
+  "bugs": {
+    "url": "https://github.com/Nizamuddin4493/Awesome-Books/issues"
+  },
+  "homepage": "https://github.com/Nizamuddin4493/Awesome-Books#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.4",
+    "hint": "^6.1.9",
+    "stylelint": "^14.3.0",
+    "stylelint-config-standard": "^24.0.0",
+    "stylelint-csstree-validator": "^2.0.0",
+    "stylelint-scss": "^4.1.0"
+  }
+}
