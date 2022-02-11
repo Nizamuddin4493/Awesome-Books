@@ -76,7 +76,7 @@ class Booklet {
   }
 }
 
-const allBooks = new Booklet(document.querySelector('.listshow'));
+const allBooks = new Booklet(document.querySelector('.listShow'));
 allBooks.generateBooks();
 allBooks.checkLocalStorage();
 allBooks.addListener();
@@ -86,3 +86,31 @@ const myForm = document.querySelector('#myForm');
 resetForm.addEventListener('click', () => {
   myForm.reset();
 });
+
+const list = document.querySelector('.list-action');
+const add = document.querySelector('.add-action');
+const contact = document.querySelector('.contact-action');
+
+list.addEventListener('click', () => {
+  document.getElementById('books').style.display = 'block';
+  document.getElementById('add').style.display = 'none';
+  document.getElementById('contact').style.display = 'none';
+});
+
+add.addEventListener('click', () => {
+  document.getElementById('books').style.display = 'none';
+  document.getElementById('add').style.display = 'block';
+  document.getElementById('contact').style.display = 'none';
+});
+
+contact.addEventListener('click', () => {
+  document.getElementById('books').style.display = 'none';
+  document.getElementById('add').style.display = 'none';
+  document.getElementById('contact').style.display = 'block';
+});
+
+window.onload = () => {
+  document.getElementById('add').style.display = 'none';
+  document.getElementById('contact').style.display = 'none';
+  this.generateBooks();
+};

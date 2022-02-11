@@ -1,30 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <title>Awesome Library</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Awesome Library</title>
+</head>
 
 <body>
-  <main class="main-container">
+  <nav>
+    <div class="website-top">
+      <div class="website-title">
+        <h2 class="a-web-page">A Web Page</h2>
+      </div>
+      <div class="web-content">
+        <img src="images/left.png" alt="left arrow" class="arrows">
+        <img src="images/right.png" alt="right arrow" class="arrows">
+        <img src="images/delete-cross.png" alt="delete" class="cross">
+        <img src="images/home.png" alt="home" class="home">
+        <div class="address-bar">
+          <p class="address">https://</p>
+        </div>
+        <img src="images/searching-bar3.png" alt="search" class="search">
+      </div>
+    </div>
+      <div class="navigation">
+        <div class="nav-title">
+          <h2>Awesome Books</h2>
+        </div>
+        <div class="nav-links">
+          <div class="link-container link-border">
+            <h4 class="nav-link-item list-action" onclick="navigation('list')">List</h4>
+          </div>
+          <div class="link-container link-border">
+            <h4 class="nav-link-item right add-action" onclick="navigation('add')">Add new </h4>
+          </div>
+          <div class="link-container">
+            <h4 class="nav-link-item contact-action" onclick="navigation('info')">Contact</h4>
+          </div>
+        </div>
+      </div>
+    </nav>
+  <main class="main-Container">
+    <div class="date-time">
+      <span class="date" id="date"></span>
+    </div>
     <section class="all-books">
-      <h1 class="main-title">All Awesome Books</h1>
-      <div class="listshow" id="books">
-        <!-- Book and author is adding here -->
+      <h2 class="main-title">All Awesome Books</h2>
+      <div class="listShow" id="books">
+        <!-- The Books will Show here -->
       </div>
     </section>
     <section class="add-books" id="add">
+      <h4 class="add-title">Add a New Book</h4>
       <div class="input-book">
-        <form id="myForm">
+        <form action="#" id="myForm">
           <input type="text" class="title" placeholder="Title" required /><br>
           <input type="text" class="author" placeholder="Author" required /><br>
           <input type="button" class="add" id="addbtn" value="Add" />
         </form>
       </div>
     </section>
+    <section class="contact-action" id="contact">
+      <h2 class="contact-title">Contact Information</h2>
+      <p class="contact-paragraph">Do you have any questions or do you just want to say hello?</p>
+      <p class="contact-paragraph">You can reach out to us!</p>
+      <div class="bullet-points">
+        <ul>
+          <li>Our email: mail@mail.com</li>
+          <li>Phone number: +1 123-456-789</li>
+          <li>Our address: 1 Infinite Loop, Cupertino, CA, USA.</li>
+        </ul>
+      </div>
+    </section>
+    <section class="copyright">
+      <div class="copyright">
+        <h3 class="copyright-text">Copyright: Nizamuddin Ahmadzai, Fernando Silva</h3>
+      </div>
+    </section>
+    <footer class="footer">
+      <h4 class="bars">//</h4>
+    </footer>
   </main>
   <script src="js/classes.js"></script>
 </body>
