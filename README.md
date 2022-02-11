@@ -4,7 +4,7 @@
 
 > A simple library for you to save a list of your favorite books.
 
-![screenshot](images/1.jpg)
+![screenshot](images/project-image.jpg)
 
 ## Run the Project Locally
 - To Clone the Project Locally Please click the following link.
