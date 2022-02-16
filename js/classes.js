@@ -114,3 +114,9 @@ window.onload = () => {
   document.getElementById('contact').style.display = 'none';
   this.generateBooks();
 };
+
+const date = document.getElementById('date');
+// eslint-disable-next-line no-undef
+const DateTime = luxon.DateTime.now();
+// eslint-disable-next-line no-undef
+date.innerHTML = DateTime.toLocaleString(luxon.DateTime.DATETIME_MED);
