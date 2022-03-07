@@ -7,7 +7,7 @@
 ![screenshot](images/project-image.jpg)
 
 ## Live Demo
-![Awesome Books](https://nizamuddin4493.github.io/Awesome-Books/)
+[Awesome Books](https://nizamuddin4493.github.io/Awesome-Books/)
 
 ## Run the Project Locally
 - To Clone the Project Locally Please click the following link.
